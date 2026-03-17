@@ -137,6 +137,28 @@ export default function JJKApiDocs() {
                 </div>
               </div>
             </footer>
+
+            {/* Developed by footer */}
+            <div className="border-t border-neutral-900 py-4 bg-[#0a0a0a]">
+              <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-center">
+                <a
+                  href="https://interaktivesolutions.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-2 text-neutral-500 hover:text-neutral-300 transition-colors text-xs"
+                >
+                  <span>developed by</span>
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img
+                    src="https://raw.githubusercontent.com/Remojs/Interaktive_QR-Manager/refs/heads/master/frontend/assets/logo.png"
+                    alt="INTERAKTIVE"
+                    className="h-5 w-auto"
+                    style={{ filter: "none" }}
+                  />
+                  <span className="font-semibold tracking-widest">INTERAKTIVE</span>
+                </a>
+              </div>
+            </div>
           </main>
 
           <MobileNav
