@@ -40,7 +40,7 @@ export interface ApiSection {
   endpoints: Endpoint[]
 }
 
-export const BASE_URL = "https://api.jujutsukaisenapi.site/api/v1"
+export const BASE_URL = "https://data.jujutsukaisenapi.site/api/v1"
 
 export const apiSections: ApiSection[] = [
   {
@@ -88,12 +88,12 @@ export const apiSections: ApiSection[] = [
       "image": "/Media/Characters/1.webp"
     }
   ],
-  "first_page_url": "https://api.jujutsukaisenapi.site/api/v1/characters?page=1",
+  "first_page_url": "https://data.jujutsukaisenapi.site/api/v1/characters?page=1",
   "from": 1,
   "last_page": 13,
-  "last_page_url": "https://api.jujutsukaisenapi.site/api/v1/characters?page=13",
-  "next_page_url": "https://api.jujutsukaisenapi.site/api/v1/characters?page=2",
-  "path": "https://api.jujutsukaisenapi.site/api/v1/characters",
+  "last_page_url": "https://data.jujutsukaisenapi.site/api/v1/characters?page=13",
+  "next_page_url": "https://data.jujutsukaisenapi.site/api/v1/characters?page=2",
+  "path": "https://data.jujutsukaisenapi.site/api/v1/characters",
   "per_page": 20,
   "prev_page_url": null,
   "to": 20,

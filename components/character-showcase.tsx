@@ -45,7 +45,7 @@ export function CharacterShowcase() {
   const [refreshing, setRefreshing] = useState(false)
 
   useEffect(() => {
-    fetch("https://api.jujutsukaisenapi.site/api/v1/characters?per_page=100")
+    fetch("https://data.jujutsukaisenapi.site/api/v1/characters?per_page=100")
       .then((r) => r.json())
       .then((data) => {
         const chars: Character[] = data.data ?? data

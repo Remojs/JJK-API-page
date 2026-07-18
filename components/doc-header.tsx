@@ -55,7 +55,7 @@ export function DocHeader() {
               <Github className="w-5 h-5" />
             </a>
             <DomainExpansionButton
-              onClick={() => window.open("https://api.jujutsukaisenapi.site/api/v1/characters", "_blank")}
+              onClick={() => window.open("https://data.jujutsukaisenapi.site/api/v1/characters", "_blank")}
               className="text-sm px-4 py-2"
             >
               <ExternalLink className="w-4 h-4" />
